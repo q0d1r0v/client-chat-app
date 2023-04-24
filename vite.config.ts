@@ -67,6 +67,7 @@ export default defineConfig({
       // allow auto import and register components used in markdown
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
       dts: 'src/components.d.ts',
+      directoryAsNamespace: true,
     }),
 
     // https://github.com/antfu/unocss
